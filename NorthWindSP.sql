@@ -27,3 +27,7 @@ select * from Territories as "Territories"
 GO
 
 
+
+Create database logging
+
+create table DeviceLog(deviceId varchar(50),userId varchar(50),logtime datetime)
